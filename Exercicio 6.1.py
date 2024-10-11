@@ -2,7 +2,7 @@ lista = []
 
 while True:
     n = input('Digite um numero: ')
-    if n != '':
+    if n != 'end':
         n = int(n)
         lista.append(n)
 
