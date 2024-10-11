@@ -1,8 +1,8 @@
 lista = []
 
 while True:
-    n = input('Digite um numero: ')
-    if n != 'end':
+    n = int(input('Digite um numero: '))
+    if n >= 0:
         n = int(n)
         lista.append(n)
 
